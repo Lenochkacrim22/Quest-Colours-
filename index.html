@@ -1,10 +1,81 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Colour Quest - Interactive Lesson</title>
-    <style>
+  <style>
+    body {
+      background-image: url('https://img.freepik.com/premium-photo/beautiful-fairytale-enchanted-forest-with-big-trees-great-vegetation-digital-painting-background_285885-1167.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white; /* Текст будет белым для контраста */
+    }
+      
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4); /* полупрозрачный слой */
+      z-index: -1;
+    }
+
+    .container {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(4px);
+    }
+
+    h1, p {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Добро пожаловать в игру "Colours Quest"</h1>
+    <p>Нажми кнопку ниже, чтобы начать своё приключение!</p>
+    <!-- Место для кнопок и игрового контента -->
+  </div>
+</body>
+</html>
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4); /* полупрозрачный слой */
+      z-index: -1;
+    }
+
+    .container {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      backdrop-filter: blur(4px);
+    }
+
+    h1, p {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Добро пожаловать в игру "Colours Quest"</h1>
+    <p>Нажми кнопку ниже, чтобы начать своё приключение!</p>
+    <!-- Место для кнопок и игрового контента -->
+  </div>
+</body>
+</html>
         * {
             margin: 0;
             padding: 0;
