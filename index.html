@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Colour Quest - Interactive Lesson</title>
     <style>
+    body {
+    background-image: url('https://img.freepik.com/premium-photo/beautiful-fairytale-enchanted-forest-with-big-trees-great-vegetation-digital-painting-background_285885-1167.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+  }
+</style>
+    <style>
         * {
             margin: 0;
             padding: 0;
